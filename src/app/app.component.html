@@ -21,10 +21,10 @@
 </div>
 
 <div>
-  <button type="button">Generate</button>
+  <button type="button" (click)="onButtonClick()">Generate</button>
 </div>
 
 <div>
   <label for="">Your Password</label>
-  <input type="text" />
+  <input type="text" [value]="password" />
 </div>
